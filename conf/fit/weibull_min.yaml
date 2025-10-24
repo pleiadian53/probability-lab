@@ -1,0 +1,4 @@
+
+dist: weibull_min
+mle: true
+bayes: false

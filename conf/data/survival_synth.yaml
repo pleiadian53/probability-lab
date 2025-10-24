@@ -1,0 +1,7 @@
+
+name: survival_synth
+kind: csv
+path: examples/survival_synthetic.csv
+column: time
+event_column: null
+engine: pandas

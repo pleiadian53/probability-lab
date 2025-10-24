@@ -1,0 +1,5 @@
+
+enabled: true
+mode: peaks_over_threshold
+block_size: null
+threshold: 0.95

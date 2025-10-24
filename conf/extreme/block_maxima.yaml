@@ -1,0 +1,5 @@
+
+enabled: true
+mode: block_maxima
+block_size: 30
+threshold: null

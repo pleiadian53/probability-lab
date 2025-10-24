@@ -1,0 +1,13 @@
+
+defaults:
+  - data: survival_synth
+  - fit: weibull_min
+  - viz: default
+  - extreme: disabled
+  - _self_
+
+output_dir: outputs
+
+hydra:
+  run:
+    dir: ${output_dir}/${now:%Y-%m-%d}/${now:%H-%M-%S}

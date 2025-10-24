@@ -1,0 +1,7 @@
+
+name: csv_dataset
+kind: csv
+path: path/to/your.csv
+column: value
+event_column: null
+engine: pandas

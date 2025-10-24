@@ -1,0 +1,4 @@
+
+dist: lognorm
+mle: true
+bayes: false

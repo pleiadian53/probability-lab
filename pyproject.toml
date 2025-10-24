@@ -1,0 +1,35 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probability-lab"
+version = "0.1.0"
+description = "A hands-on lab for experimenting with probability distributions on real-world healthcare/genomics data"
+authors = [{name="Your Name"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "polars>=1.5.0",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "plotly>=5.20",
+    "lifelines>=0.28",
+    "pydantic>=2.6",
+    "typer>=0.12.3",
+    "rich>=13.7",
+    "hydra-core>=1.3",
+    "omegaconf>=2.3",
+]
+[project.optional-dependencies]
+torch = ["torch>=2.1", "pyro-ppl>=1.9"]
+pymc = ["pymc>=5.13", "arviz>=0.17"]
+dev = ["ipykernel", "pytest", "black", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["prob_lab*"]
+exclude = ["dev*", "apps*", "scripts*", "examples*", "docs*"]
