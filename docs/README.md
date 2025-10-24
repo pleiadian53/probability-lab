@@ -27,6 +27,7 @@ This directory contains project-level documentation for the Probability Lab proj
 |----------|---------|----------|
 | **[Dependencies Guide](dependencies.md)** | Complete reference for all project dependencies | All developers |
 | **[Editable Mode Deep Dive](editable-mode-deep-dive.md)** | How `pip install -e .` works technically | Curious developers |
+| **[GitHub Setup Guide](github-setup.md)** | Publishing to GitHub and using GitLens | All developers |
 | **[Hydra Configuration Guide](hydra/README.md)** | Experiment management with Hydra | All developers |
 | **[Hydra Tutorial](hydra/tutorial.md)** | Step-by-step Hydra examples | New to Hydra |
 
